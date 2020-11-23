@@ -20,7 +20,7 @@ public class TestV1 {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("url", equalTo("https://postman-echo.com"))
+                .body("url", equalTo("https://postman-echo.com/post"))
         ;
 
     }
